@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.header{
+/* .header{
   background: linear-gradient(to right, black, blue);
   color: rgba(255, 255, 255, 0.842);
   text-transform: uppercase;
@@ -13,7 +13,7 @@
 .header__main{
   letter-spacing: 1rem;
   padding-top: 15px;
-}
+} */
 
 
 .modalDialog {
@@ -42,8 +42,9 @@
     margin: 10% auto;
     padding: 10px 60px;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(5, 31, 116), rgb(14, 14, 58));
-    color: aliceblue;
+    /* background: linear-gradient(to right, rgb(5, 31, 116), rgb(14, 14, 58)); */
+    background: #FFF;
+    color: black
   }
 
   .form__group{
@@ -102,7 +103,8 @@
     }
   }
   .close {
-    background: linear-gradient(to right, rgb(5, 31, 116), rgb(14, 14, 58));
+    /* background: linear-gradient(to right, rgb(5, 31, 116), rgb(14, 14, 58)); */
+    background: #111010f5;
     color: #FFFFFF;
     line-height: 25px;
     position: absolute;

@@ -14,7 +14,7 @@ submit.addEventListener("click", function(){
   //Grabbing the input and transforming it into a number
   let code = zipcodes.includes(Number(input.value))
   if(code){
-    window.location.replace("index2.html");
+    window.location.href = "index2.html";
   }else{
     invalid.style.display = 'block'
   }
