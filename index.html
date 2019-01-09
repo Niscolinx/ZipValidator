@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>zipchecker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__main">zipchecker</h1>
+    </header>
+    <main>
+        <div id="openModal" class="modalDialog">
+            <div>
+                <a href="#" class="close">X</a>
+                <h2>Where do you want to send your flowers?</h2>
+          <br/>
+          <p class="invalid" id="invalid">invalid zip code</p>
+              <div class="form__group">
+                    <input type="text" placeholder="Zip Code" id="name" class="form__input" required>
+                    <input type="submit" value="Submit" class="form__submit" id="submit">
+                </div>          
+          <p class="modal__text">Check out <a href="#" class="modal__text--link">where we deliver!</a></p>
+        </div>
+    </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
